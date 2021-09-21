@@ -11,11 +11,11 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 Salam [{}](tg://user?id={}),
 
-\n\nMən  🎸Musiqi yükləmə botuyam[🎶](https://telegra.ph/file/3fa46c1a37dbe898d6eba.jpg)
+\n\nMən  🎸Musiqi yükləmə botuyam[🎶](https://telegra.ph/file/fb66d3f27812c118fa19e.jpg)
 
-Sahibim @ABISHOV_27 🤖
+Sahibim @Shirnovff 🤖
 
-Axtardığın mahnının adını mənə göndər... 😍🥰🤗
+Axtardığın mahnının adını mənə göndər... 🎶🎶
 
 Nümunə. ```/song İfrat Heyif```
 """
@@ -36,9 +36,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="Rəsmi Qrup 👬", url="http://t.me/darkchatgroup12"),
+           [[InlineKeyboardButton(text="Sahib 🕵️", url="http://t.me/shirnovff"),
              InlineKeyboardButton(
-                        text="Botu qrupa əlavə et 🤗", url="http://t.me/SongProBot?startgroup=true"
+                        text="Botu qrupa əlavə et 🤗", url="http://t.me/AkmSongBot?startgroup=true"
                     )
                 ]
             ]
