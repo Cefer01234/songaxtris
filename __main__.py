@@ -11,7 +11,7 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 👋 Salam [{}](tg://user?id={}),
 
-\n\nMən  🎸Musiqi yükləmə botuyam[🎶](https://telegra.ph/file/fb66d3f27812c118fa19e.jpg)
+\n\nAKM Song Bot'a xoş gəldiniz axtardığınız mahnını tapmağa üçün sizə kömək edəcəm /help əmrdindən istifadə edərək kömək ala bilərsiniz[🎶](https://telegra.ph/file/fb66d3f27812c118fa19e.jpg)
 
 Sahibim @Shirnovff 🤖
 
